@@ -8,6 +8,8 @@
       "@assets/*": ["./assets/*"],
       "tailchat-design": ["../packages/design/components"]
     },
+    "verbatimModuleSyntax": true,
+    "lib": ["DOM", "ES2016"],
     "typeRoots": ["./node_modules/@types", "./types"]
   },
   "exclude": ["e2e", "plugins", "tailchat.d.ts"]

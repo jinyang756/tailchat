@@ -2,7 +2,7 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "target": "esnext",
-    "lib": ["DOM"],
+    "lib": ["DOM", "ES2015", "ES2015.Array"],
     "jsx": "react",
     "module": "ESNext",
     "moduleResolution": "node",
